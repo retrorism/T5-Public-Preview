@@ -41,7 +41,7 @@ class T5_Public_Preview
 		// If you translate this, avoid reserved words like 'preview' or 'draft'.
 		// That would mess up the global $wp_query.
 		$endpoint->register(
-			_x( 'post-preview', 'endpoint url prefix', 'plugin_t5_public_preview' )
+			_x( 'story-preview', 'endpoint url prefix', 'plugin_t5_public_preview' )
 		);
 
 		$meta = new T5_Post_Meta;

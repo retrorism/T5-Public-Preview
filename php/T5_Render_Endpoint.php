@@ -70,8 +70,9 @@ class T5_Render_Endpoint
 
 		$query = array (
 			'suppress_filters' => TRUE,
+			'post_status'      => 'draft',
 			'p'                => $post_id,
-			'post_type'        => 'any'
+			'post_type'        => 'story'
 		);
 
 		// Overwrite the main query
